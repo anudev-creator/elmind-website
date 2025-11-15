@@ -1,0 +1,9 @@
+{
+  "/Admin/page": "/Admin",
+  "/ElmindSchool/page": "/ElmindSchool",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/privacy-policy/page": "/privacy-policy",
+  "/underconstruction/page": "/underconstruction"
+}
