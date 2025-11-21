@@ -4,7 +4,7 @@
 import { useState, useEffect, useCallback } from 'react';
 
 // Define the base URL as a constant for easy management
-const API_BASE_URL = 'http://192.168.1.34:3221/DailyUpdate';
+const API_BASE_URL = 'https://elmind.tech/DailyUpdate';
 
 export default function AddChapterPage() {
     // --- STATE MANAGEMENT ---

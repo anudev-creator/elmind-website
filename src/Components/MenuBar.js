@@ -72,8 +72,8 @@ export default function MenuBar() {
               </div>
             </div>
 
-            <Link href={"/underconstruction"} className="hover:text-[#2AA5A3] transition-colors">Report</Link>
-            <Link href={"/underconstruction"} className="hover:text-[#2AA5A3] transition-colors">Contact</Link>
+            <Link href={"/AppReport"} className="hover:text-[#2AA5A3] transition-colors">Report</Link>
+            <Link href={"/AccountRequets"} className="hover:text-[#2AA5A3] transition-colors">SignUp</Link>
             <Link href={"/underconstruction"}>
               <div className="bg-[#2AA5A3] shadow-[5px_4px_0px_0px_#000000] px-6 py-2 rounded-lg text-white text-center transition-transform hover:scale-105">
                 Book A Demo
@@ -131,8 +131,8 @@ export default function MenuBar() {
               )}
             </div>
 
-            <Link href={"/underconstruction"} onClick={closeAllMenus}>Report</Link>
-            <Link href={"/underconstruction"} onClick={closeAllMenus}>Contact</Link>
+            <Link href={"/AppReport"} onClick={closeAllMenus}>Report</Link>
+            <Link href={"/AccountRequets"} onClick={closeAllMenus}>SignUp</Link>
             <Link href={"/underconstruction"} onClick={closeAllMenus}>
               <div className="bg-[#2AA5A3] shadow-[7px_5px_0px_0px_#000000] px-8 py-3 rounded-lg text-white text-center">
                 Book A Demo
