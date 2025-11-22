@@ -29,7 +29,7 @@ export default function ForgotPassword() {
             const baseUrl = process.env.NEXT_PUBLIC_PUBLIC_URL;
             console.log(`Sending Data to ${baseUrl}`);
             
-            const response = await fetch(`${baseUrl}/AccountManagingSystem/api/checkDetial`, {
+            const response = await fetch(`${baseUrl}/AccountManagingSystem/api/checkDetail`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ payload: encryptedPhone,ID: ID }),
@@ -78,7 +78,7 @@ export default function ForgotPassword() {
                                 Manage your Account
                             </h2>
                             <p className="text-gray-600 mt-2 text-sm animate-fade-in-up">
-                                No problem. Enter your phone number and we'll send you a reset code.
+                                No problem. Enter your phone number and we&apos;ll send you a reset code.
                             </p>
                         </div>
 

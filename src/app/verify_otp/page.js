@@ -104,7 +104,7 @@ export default function VerifyOTP() {
                 sessionStorage.setItem('elmind_user_phone', phone);
                 sessionStorage.removeItem('elmind_page_visited');
                 localStorage.removeItem('phoneNumber');
-                window.location.href = '/reset-password/secure';
+                window.location.href = '/MyAccount';
 
             } else {
                 setError(data.message || 'Invalid Code');
