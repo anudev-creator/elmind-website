@@ -1,0 +1,13 @@
+{
+  "/AccountRequets/page": "/AccountRequets",
+  "/Admin/page": "/Admin",
+  "/AppReport/page": "/AppReport",
+  "/ElmindSchool/page": "/ElmindSchool",
+  "/MyAccount/page": "/MyAccount",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/privacy-policy/page": "/privacy-policy",
+  "/underconstruction/page": "/underconstruction",
+  "/verify_otp/page": "/verify_otp"
+}

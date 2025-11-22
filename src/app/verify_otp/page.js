@@ -121,7 +121,7 @@ export default function VerifyOTP() {
             <main className="flex-grow flex flex-col justify-center items-center p-4">
                 <div className="w-full max-w-md bg-white rounded-2xl shadow-[5px_4px_0px_0px_#000000] border-2 border-black p-8">
                     <div className="text-center mb-8">
-                        <h2 className="text-2xl font-bold text-gray-800">Verify It's You</h2>
+                        <h2 className="text-2xl font-bold text-gray-800">Verify It&apos;s You</h2>
                         <p className="text-gray-600 mt-2 text-sm">
                             Enter code sent to <span className="font-bold text-black">{phone || "..."}</span>
                         </p>
